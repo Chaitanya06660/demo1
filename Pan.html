@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .pan-container {
+        width: 450px; height: 280px;
+        background: linear-gradient(135deg, #a7c7e7 0%, #fbc2eb 100%);
+        border-radius: 10px; padding: 15px; position: relative;
+        font-family: "Arial Narrow", Arial, sans-serif; border: 1px solid #999;
+    }
+    .pan-header { display: flex; justify-content: space-between; color: #601a1a; font-weight: bold; }
+    .pan-header div { text-align: center; font-size: 14px; }
+    
+    .emblem-center { 
+        position: absolute; left: 50%; top: 40%; transform: translate(-50%, -50%);
+        font-size: 80px; opacity: 0.15; filter: grayscale(100%);
+    }
+
+    .info-section { margin-top: 25px; font-size: 18px; font-weight: bold; }
+    .label-small { font-size: 11px; color: #2c3e50; font-weight: normal; margin-top: 15px; }
+    
+    .pan-number { font-size: 22px; letter-spacing: 2px; margin-top: 5px; }
+    
+    .hologram-box {
+        position: absolute; right: 25px; top: 75px;
+        width: 65px; height: 75px;
+        background: repeating-linear-gradient(45deg, #eee, #ddd 10px);
+        border: 1px solid #bbb; border-radius: 5px;
+    }
+    .vertical-id {
+        position: absolute; right: 5px; bottom: 40px;
+        writing-mode: vertical-rl; font-size: 10px; color: #444;
+    }
+</style>
+</head>
+<body>
+    <div class="pan-container">
+        <div class="emblem-center">🏛️</div>
+        <div class="pan-header">
+            <div>आयकर विभाग<br>INCOME TAX DEPARTMENT</div>
+            <div>भारत सरकार<br>GOVT. OF INDIA</div>
+        </div>
+        
+        <div class="info-section" style="margin-top: 40px;">Chaitanya Sri Perumbudoor</div>
+        
+        <div class="info-section" style="margin-top: 30px;">20/07/2006</div>
+        
+        <div class="label-small">Permanent Account Number</div>
+        <div class="pan-number">BKZPS4412L</div>
+        
+        <div class="hologram-box"></div>
+        <div class="vertical-id">16042009</div>
+    </div>
+</body>
+</html>
